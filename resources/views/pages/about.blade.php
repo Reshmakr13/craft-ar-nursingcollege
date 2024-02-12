@@ -3,8 +3,8 @@
 <div class="items-center">
 
     <header>
-        <nav class="flex md:flex-col mb-6 md:mb-0 md:w-full">
-        <div class="md:flex md:flex-row hidden md:block md:bg-primary md:w-full p-4 ">
+        <nav class="flex lg:flex-col mb-6 lg:mb-0 lg:w-full">
+        <div class="lg:flex lg:flex-row hidden lg:block lg:bg-primary lg:w-full p-4 ">
                 <div class="flex flex-row ">
                     <div class="flex ml-20 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-4 w-4 fill-current text-white mt-1 ">
@@ -20,7 +20,7 @@
                         <p class="text-white ml-2 font-light font-questrial">nursingschool@craftivf.com</p>
                     </div>
                 
-                    <div class="flex md:ml-40 items-center">
+                    <div class="flex lg:ml-40 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="h-5 w-4 fill-current text-white mt-1 ">
                         <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                         <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
@@ -34,11 +34,11 @@
                     </div>
                 </div>
             </div>
-            <div class="md:flex md:item-center mb-2">
-                <div class="pt-2.5 md:py-2 pl-3.5 md:w-1/3 ">
-                <img src="{{url('/images/Craft school of nursing logo.png')}}" class="h-14 w-12 md:h-20 md:w-16 md:ml-10 " alt="logo"> 
+            <div class="lg:flex lg:item-center mb-2">
+                <div class="pt-2.5 lg:py-2 pl-3.5 lg:w-1/3 ">
+                <img src="{{url('/images/Craft school of nursing logo.png')}}" class="h-14 w-12 lg:h-20 lg:w-16 lg:ml-10 " alt="logo"> 
                 </div>
-                <div class="hidden md:text-right md:block md:mr-28 md:font-light font-gothic md:py-8 md:w-2/3 md:space-x-16 md:text-xl">
+                <div class="hidden lg:text-right lg:block lg:mr-12 lg:font-light font-gothic lg:py-8 lg:w-2/3 lg:space-x-16 lg:text-xl">
                     <a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">Home</a>
                     <a @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'})"class="text-teal font-bold underline">About Us</a>
                     <a @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'})">Courses</a>
@@ -46,14 +46,14 @@
                     <a @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'})">Contact Us</a>
                 </div>
             </div>
-            <div x-data="{ open : false }" class="pt-3 items-center text-right md:hidden">
+            <div x-data="{ open : false }" class="pt-3 items-center text-right lg:hidden">
                 <button @click="open = !open"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-80 mr-3 mt-3 " viewBox="0 0 448 512">
                 <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                 <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
                 </svg>
                 </a>
                 </button>
-                <div x-show="open" class="md:hidden">
+                <div x-show="open" class="lg:hidden">
                     <ul class="bg-white p-4">
                         <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})">Home</a></li>
                         <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'})">About Us</a></li>
@@ -69,13 +69,13 @@
     
     <div>
         <div class="relative ">
-            <img src="{{url('/images/hospital1.png')}}" class="md:w-full md:bg-cover hidden md:block " alt="image">
-            <img src="{{url('/images/about1phn.png')}}" class=" w-full  bg-cover md:hidden" alt="image">
+            <img src="{{url('/images/hospital1.png')}}" class="lg:w-full lg:bg-cover hidden lg:block " alt="image">
+            <img src="{{url('/images/about1phn.png')}}" class=" w-full  bg-cover lg:hidden" alt="image">
             <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-secondary/40 to-accent/50">
-                <div class="md:text-left ml-14 mt-28 md:mt-60 md:ml-32 -mr-6">
-                            <div class=""><h class="text-white text-sm md:text-base outline outline-white outline-1 font-bold font-inter md:px-2 md:py-2  pt-1 pb-1 mr-14 pl-1 pr-1">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
-                            <p class=" text-left text-white text-4xl mt-10 md:text-7xl md:leading-tight font-black font-gothic mr-10 md:mt-8 md:text-8xl">About Us</p>
-                            <div class="md:mr-96 md:pr-4"><p class=" text-left text-white text-sm  md:text-base font-gothic mt-12 font-light  mr-24 md:mr-96 md:text-lg md:font-normal md:leading-6" >It is a long established fact that a reader will be distracted 
+                <div class="lg:text-left ml-14 mt-28 lg:mt-60 lg:ml-32 -mr-6">
+                            <div class=""><h class="text-white text-sm lg:text-base outline outline-white outline-1 font-bold font-inter lg:px-2 lg:py-2  pt-1 pb-1 mr-14 pl-1 pr-1">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
+                            <p class=" text-left text-white text-4xl mt-10 lg:text-7xl lg:leading-tight font-black font-gothic mr-10 lg:mt-8 lg:text-8xl">About Us</p>
+                            <div class="lg:mr-96 lg:pr-4"><p class=" text-left text-white text-sm  lg:text-base font-gothic mt-12 font-light  mr-24 lg:mr-96 lg:text-lg lg:font-normal lg:leading-6" >It is a long established fact that a reader will be distracted 
                                 by the readable content of a page when looking at its layout. The point of using Lorepwdm Ipsum
                                 is that it has a more-or-less normal distribution f letters, as opposed to using 'Content here, content here',</p></div>
                             
@@ -87,16 +87,16 @@
     </div>
 
     <div>
-        <div class="text-center md:text-left">
-            <div class="mt-6 mb-4 md:ml-20"><h class="text-teal font-inter font-bold text-sm md:text-xl  ">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
-            <p class="text-justify leading-4 text-sm mr-6 ml-6 font-gothic text-black md:text-lg/[22px] md:leadind-5 md:ml-20 md:text-left md:mr-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+        <div class="text-center lg:text-left">
+            <div class="mt-6 mb-4 lg:ml-20"><h class="text-teal font-inter font-bold text-sm lg:text-xl  ">WELCOME TO CRAFT SCHOOL OF NURSING</h></div>
+            <p class="text-justify leading-4 text-sm mr-6 ml-6 font-gothic text-black lg:text-lg/[22px] lg:leadind-5 lg:ml-20 lg:text-left lg:mr-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
                   not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
                   1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
             </p>
 
-            <p class="text-justify leading-4 text-sm mr-6 ml-6 font-gothic text-black mt-4 md:text-lg/[22px] md:leadind-5 md:ml-20 md:text-left md:mr-20">Contrary to popular belief, Lorem Ipsum is not simply random text.
+            <p class="text-justify leading-4 text-sm mr-6 ml-6 font-gothic text-black mt-4 lg:text-lg/[22px] lg:leadind-5 lg:ml-20 lg:text-left lg:mr-20">Contrary to popular belief, Lorem Ipsum is not simply random text.
                  It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor 
                  at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
                   through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 
@@ -108,14 +108,14 @@
                   H. Rackham
             </p>
 
-            <p class="text-justify leading-4 text-sm mr-6 ml-6 font-gothic text-black mt-4 md:text-lg/[22px] md:leadind-5 md:ml-20 md:text-left md:mr-20">It is a long established fact that a reader will be distracted 
+            <p class="text-justify leading-4 text-sm mr-6 ml-6 font-gothic text-black mt-4 lg:text-lg/[22px] lg:leadind-5 lg:ml-20 lg:text-left lg:mr-20">It is a long established fact that a reader will be distracted 
                 by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
                  of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web 
                  page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
                  Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             </p>
 
-            <p class="text-justify leading-4 text-sm mr-6 ml-6 font-gothic text-black mt-4 mb-16 md:text-lg/[22px] md:leadind-5 md:ml-20 md:text-left md:mr-20 md:mb-4">There are many variations of passages of Lorem Ipsum available,
+            <p class="text-justify leading-4 text-sm mr-6 ml-6 font-gothic text-black mt-4 mb-16 lg:text-lg/[22px] lg:leadind-5 lg:ml-20 lg:text-left lg:mr-20 lg:mb-4">There are many variations of passages of Lorem Ipsum available,
                  but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
                   If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
                   All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on
@@ -123,7 +123,7 @@
                  The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
             </p>
 
-            <p class="text-justify hidden md:block leading-4 text-sm mr-6 ml-6 font-gothic text-black md:text-lg/[22px] md:leadind-5 md:ml-20 md:text-left md:mr-20 md:mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+            <p class="text-justify hidden lg:block leading-4 text-sm mr-6 ml-6 font-gothic text-black lg:text-lg/[22px] lg:leadind-5 lg:ml-20 lg:text-left lg:mr-20 lg:mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
                   not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
                   1960s with the release of Letraset sheets containing Lorem Ipsum passages,
@@ -141,42 +141,42 @@
     <footer><div>
         
         <div class="inset-0 overflow-hidden  bg-gradient-to-b from-elm/100 to-teal/70 ">
-            <div class="md:flex flex-row-reverse md:mt-4 md:mb-12 mb-6">
-                <div class="mt-4 ml-10  md:w-1/2 md:flex flex-row md:pr-12">
-                    <div class="md:mt-6 ">
-                        <div><h class="text-white text-base mb-2 md:text-xl md:font-normal font-nter">Reach us</h></div>
-                        <p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
-                        <p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
+            <div class="lg:flex flex-row-reverse lg:mt-4 lg:mb-12 mb-6">
+                <div class="mt-4 ml-10  lg:w-1/2 lg:flex flex-row lg:pr-12">
+                    <div class="lg:mt-6 ">
+                        <div><h class="text-white text-base mb-2 lg:text-xl lg:font-normal font-nter">Reach us</h></div>
+                        <p class="text-white font-light leading-6 text-sm mt-2 lg:font-normal font-inter">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
+                        <p class="text-white font-light leading-6 text-sm mt-2 lg:font-normal font-inter">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
                     </div>
-                    <div class="md:flex flex-row-reverse">
-                        <div class="md:ml-12">
+                    <div class="lg:flex flex-row-reverse">
+                        <div class="lg:ml-12">
                             <ul class="list-disc text-white mt-6 ">
-                                <div><h class="text-white text-base mb-2 md:text-xl font-inter md:font-normal">Quick Links</h></div>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Home</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Courses</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">About Us</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Contact Us</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Gallery</p></a></li>
+                                <div><h class="text-white text-base mb-2 lg:text-xl font-inter lg:font-normal">Quick Links</h></div>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-light leading-6 text-sm mt-2 lg:font-normal font-inter">Home</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'})"><p class="text-white font-light leading-6 text-sm mt-2 lg:font-normal font-inter">Courses</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'})"><p class="text-white font-light leading-6 text-sm mt-2 lg:font-normal font-inter">About Us</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'})"><p class="text-white font-light leading-6 text-sm mt-2 lg:font-normal font-inter">Contact Us</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'})"><p class="text-white font-light leading-6 text-sm mt-2 lg:font-normal font-inter">Gallery</p></a></li>
                             </ul>
                         </div>
-                        <div class="md:ml-6">
+                        <div class="lg:ml-6">
                             <ul class="list-disc text-white mt-6 ">
-                                <div><h class="text-white text-base mb-2 md:text-xl md:font-normal font-inter">Openings Hours</h></div>
-                                    <li class="ml-6"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Mon – Sat 09:00 AM – 06:00PM(Kochi) </p></li>
-                                    <li class="ml-6"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Mon – Sun Always open(Kodungalloor)</p></li>
+                                <div><h class="text-white text-base mb-2 lg:text-xl lg:font-normal font-inter">Openings Hours</h></div>
+                                    <li class="ml-6"><p class="text-white font-light leading-6 text-sm mt-2 lg:font-normal font-inter">Mon – Sat 09:00 AM – 06:00PM(Kochi) </p></li>
+                                    <li class="ml-6"><p class="text-white font-light leading-6 text-sm mt-2 lg:font-normal font-inter">Mon – Sun Always open(Kodungalloor)</p></li>
                             </ul>
                         </div>
                     </div>    
                 </div>
 
-                <div class="mt-12 flex flex-row mb-6 md:w-1/3 ml-8">
+                <div class="mt-12 flex flex-row mb-6 lg:w-1/3 ml-8">
                     <div>
-                        <img src="{{url('/images/Craft school of nursing logo1.png')}}" class="border rounded-lg h-32 w-26 md:h-48 md:w-36" alt="image">
+                        <img src="{{url('/images/Craft school of nursing logo1.png')}}" class="border rounded-lg h-32 w-26 lg:h-48 lg:w-36" alt="image">
                     </div>
 
                     <div class="ml-10 -mt-4">
-                        <p class="text-white font-light leading-6 text-sm mt-2 md:mt-4 md:text-sm font-inter">Our sister concerns</p>   
-                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 md:h-auto md:mt-2"><img src="{{url('/images/Craft hospital logo-01.png')}}" class="border border-white rounded-lg  w-14 ml-10 items-center md:w-16" alt="image"></div>
+                        <p class="text-white font-light leading-6 text-sm mt-2 lg:mt-4 lg:text-sm font-inter">Our sister concerns</p>   
+                        <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 lg:h-auto lg:mt-2"><img src="{{url('/images/Craft hospital logo-01.png')}}" class="border border-white rounded-lg  w-14 ml-10 items-center lg:w-16" alt="image"></div>
                         <img src="{{url('/images/WhatsApp_Image_2023-12-04_at_1.50.00_PM-removebg-preview.png')}}" class="border rounded-lg bg-base-100 h-10 w-36 mt-4 px-1" alt="image">
                     </div>
                 </div>
