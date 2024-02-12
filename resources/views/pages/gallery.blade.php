@@ -68,7 +68,7 @@
 
     <div class="ml-4 mr-4 mt-8 md:mt-28 md:ml-16 md:mr-16">
         <div class=""><h class="text-xl font-semibold font-inter text-black md:text-6xl">News & Articles</h></div>
-        <p class="text-xs text-justify font-extralight font-inter  mt-3 md:text-base md:mt-6 md:leading-6 md:pr-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor
+        <p class="text-sm text-justify font-extralight font-inter  mt-3 md:text-base md:mt-6 md:leading-6 md:pr-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor
              sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur
               adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet,
              consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -83,13 +83,13 @@
     </div>
 
     <div class="md:mt-24 mt-2">
-        <p class="text-justify leading-4 text-xs mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        <p class="text-justify leading-4 text-sm mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
             into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
              passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
         </p>
 
-        <p class="text-justify leading-4 text-xs mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">
+        <p class="text-justify leading-4 text-sm mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
          old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem 
          Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 
@@ -99,14 +99,14 @@
         by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
         </p>
 
-        <p class="text-justify leading-4 text-xs mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">
+        <p class="text-justify leading-4 text-sm mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">
         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is 
         that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
          publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in 
          their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
         </p>
 
-        <p class="text-justify leading-4 text-xs mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">
+        <p class="text-justify leading-4 text-sm mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">
         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
          which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in 
          the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the 
@@ -116,39 +116,7 @@
 
     </div>
 
-    <div class="hidden md:block md:mt-8">
-        <p class="text-justify leading-4 text-xs mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
-            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-             passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-        </p>
-
-        <p class="text-justify leading-4 text-xs mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
-         old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem 
-         Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 
-         and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics,
-          very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" 
-        by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
-        </p>
-
-        <p class="text-justify leading-4 text-xs mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20">
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is 
-        that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
-         publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in 
-         their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-        </p>
-
-        <p class="text-justify leading-4 text-xs mr-8 ml-6 mt-4 font-gothic font-normal text-black md:text-base md:leadind-5 md:ml-16 md:text-left md:mr-20 md:mb-16">
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
-         which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in 
-         the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the 
-         Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-          The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-        </p>
-
-    </div>
+    
 
 
     <div>
@@ -159,7 +127,7 @@
                 </div>
                 <img class="w-full  object-cover" src="{{url('/images/4.jpg')}}" alt="Card image">
                 <div class="px-4 py-4 mt-2">
-                    <p class=" text-xs font-extralight text-black font-gothic md:text-sm">
+                    <p class=" text-sm font-extralight text-black font-gothic md:text-sm">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus
                     </p>
@@ -175,7 +143,7 @@
                 </div>
                 <img class="w-full  object-cover" src="{{url('/images/4.jpg')}}" alt="Card image">
                 <div class="px-4 py-4 mt-2">
-                    <p class=" text-xs font-extralight text-black font-gothic md:text-sm">
+                    <p class=" text-sm font-extralight text-black font-gothic md:text-sm">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus
                     </p>
@@ -191,7 +159,7 @@
                 </div>
                 <img class="w-full  object-cover" src="{{url('/images/4.jpg')}}" alt="Card image">
                 <div class="px-4 py-4 mt-2 ">
-                    <p class=" text-xs font-extralight text-black font-gothic md:text-sm ">
+                    <p class=" text-sm font-extralight text-black font-gothic md:text-sm ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus
                     </p>
@@ -212,7 +180,7 @@
             </div>
             <img class="w-full  object-cover" src="{{url('/images/4.jpg')}}" alt="Card image">
             <div class="px-4 py-4 mt-2 ">
-                <p class=" text-xs font-extralight text-black font-gothic md:text-sm ">
+                <p class=" text-sm font-extralight text-black font-gothic md:text-sm ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus
                 </p>
@@ -233,7 +201,7 @@
             </div>
             <img class="w-full  object-cover" src="{{url('/images/4.jpg')}}" alt="Card image">
             <div class="px-4 py-4 mt-2 ">
-                <p class=" text-xs font-extralight text-black font-gothic md:text-sm ">
+                <p class=" text-sm font-extralight text-black font-gothic md:text-sm ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus
                 </p>
@@ -254,7 +222,7 @@
         </div>
             <img class="w-full  object-cover" src="{{url('/images/4.jpg')}}" alt="Card image">
             <div class="px-4 py-4 mt-2 ">
-                <p class=" text-xs font-extralight text-black font-gothic md:text-sm ">
+                <p class=" text-sm font-extralight text-black font-gothic md:text-sm ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis, pulvinar dapibus leo.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus
                 </p>
@@ -277,64 +245,32 @@
 
 
     <footer><div>
-        <div>
-            <div class="relative">
-                <img src="{{url('/images/6 phnnew.png')}}" class="bg-cover w-full md:hidden"alt="image">
-                <img src="{{url('/images/6f.png')}}" class="bg-cover w-full hidden md:block"alt="image">
-                <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-submarine/100 to-teal/10 md:bg-gradient-to-r from-cyan/80 to-teal/10">
-                    <div class="ml-6 mt-8 mb-20 md:mt-40 md:ml-16">
-                        <h class="font-inter text-white font-bold text-xl md:text-4xl">Fulfill Your Dreams Of A<br> Noble Career</h>
-                        <div class="md:mr-96 md:pr-64"><p class="font-inter text-white font-thin leading-4 text-xs md:text-sm md:mt-12 md:mr-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis,
-                             pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, .</p></div>
-                            <button class="text-center flex items-center font-arial font-bold md:text-2xl text-white mt-4 bg-teal text-xs p-2 md:mt-28 md:py-3 md:px-5 mr-52" type="button">
-                                        APPLY NOW
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 md:h-5 md:w-5 stroke-1 fill-base-100"viewBox="0 0 512 512">
-                                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                            <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/>
-                                        </svg>
-                            </button>
-                    </div>
-                    <div>
-                        <div class="inset-0 overflow-hidden  bg-gradient-to-b from-teal/100 to-teal/50  mt-28 pb-16 md:mt-72 md:ml-16 md:mr-16">
-                            <div class="ml-4 md:mt-16 md:ml-16">
-                                <div class="mt-2"><h class="text-white font-extrabold font-inter text-base md:text-2xl">Don’t Miss Our Updates</h></div>
-                                <p class="text-white font-extralight font-inter text-xs mt-4">Enter your email to subscribe to our mailing list.</p>
-                                <form class="mt-3 md:ml-96 md:-mt-8 md:mb-10 ">
-                                    <input name="name" class="md:w-1/2 md:h-16 md:ml-44"></input>
-                                    <button class="text-white font-inter text-base bg-primary font-semibold px-4 py-2 md:text-lg md:px-14 md:py-4 md:ml-2">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            
-        </div>
+        
+        
         <div class="inset-0 overflow-hidden  bg-gradient-to-b from-elm/100 to-teal/70 ">
             <div class="md:flex flex-row-reverse md:mt-4 md:mb-12 mb-6">
                 <div class="mt-4 ml-10  md:w-1/2 md:flex flex-row md:pr-12">
                     <div class="md:mt-6 ">
                         <div><h class="text-white text-base mb-2 md:text-xl md:font-normal font-inter">Reach us</h></div>
-                        <p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
-                        <p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
+                        <p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
+                        <p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
                     </div>
                     <div class="md:flex flex-row-reverse">
                         <div class="md:ml-12">
                             <ul class="list-disc text-white mt-6 ">
                                 <div><h class="text-white font-inter text-base mb-2 md:text-xl md:font-normal font-inter">Quick Links</h></div>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Home</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Courses</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">About Us</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Contact Us</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Gallery</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Home</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Courses</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">About Us</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Contact Us</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Gallery</p></a></li>
                             </ul>
                         </div>
                         <div class="md:ml-6">
                             <ul class="list-disc text-white mt-6 ">
                                 <div><h class="text-white text-base mb-2 md:text-xl md:font-normal font-inter">Openings Hours</h></div>
-                                    <li class="ml-6"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Mon – Sat 09:00 AM – 06:00PM(Kochi) </p></li>
-                                    <li class="ml-6"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Mon – Sun Always open(Kodungalloor)</p></li>
+                                    <li class="ml-6"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Mon – Sat 09:00 AM – 06:00PM(Kochi) </p></li>
+                                    <li class="ml-6"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Mon – Sun Always open(Kodungalloor)</p></li>
                             </ul>
                         </div>
                     </div>    
@@ -346,7 +282,7 @@
                     </div>
 
                     <div class="ml-10 -mt-4">
-                        <p class="text-white font-light leading-6 text-xs mt-2 md:mt-4 md:text-sm font-inter">Our sister concerns</p>   
+                        <p class="text-white font-light leading-6 text-sm mt-2 md:mt-4 md:text-sm font-inter">Our sister concerns</p>   
                         <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 md:h-auto md:mt-2"><img src="{{url('/images/Craft hospital logo-01.png')}}" class="border border-white rounded-lg  w-14 ml-10 items-center md:w-16" alt="image"></div>
                         <img src="{{url('/images/WhatsApp_Image_2023-12-04_at_1.50.00_PM-removebg-preview.png')}}" class="border rounded-lg bg-base-100 h-10 w-36 mt-4 px-1" alt="image">
                     </div>

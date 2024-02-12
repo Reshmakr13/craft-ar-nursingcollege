@@ -71,8 +71,8 @@
         <div class="mt-4 md:mt-48 md:w-1/2 md:mr-12">
             <div class="ml-4 md:mr-48">
                 <h class="text-2xl  font-bold text-black md:text-6xl font-gothic">Contact Us</h>
-                <p class="md:hidden font-normal  text-xs mt-6 md:text-xl font-gothic">Feel free to contact us any time. We will get back to you as we can!</p>
-                <p class="hidden md:block font-normal  text-xs mt-6 md:text-xl font-gothic">Feel free to contact us any time. We will get<br> back to you as we can!</p>
+                <p class="md:hidden font-normal  text-sm mt-6 md:text-xl font-gothic">Feel free to contact us any time. We will get back to you as we can!</p>
+                <p class="hidden md:block font-normal  text-sm mt-6 md:text-xl font-gothic">Feel free to contact us any time. We will get<br> back to you as we can!</p>
                 <div class="mt-8">
                 @if(session('success'))
                 <div class="alert alert-success">
@@ -128,18 +128,18 @@
                 <div class="ml-4 mt-8">
                     <div class=""><h class="text-white text-sm font-bold font-inter md:text-3xl">Info</h></div>
                     <div class="flex mt-16 items-center">
-                        <p class="text-white text-xs font-bold font-gothic md:text-2xl">Email</p>
-                        <p class="text-white text-xs font-gothic ml-24 md:text-sm">craftnursingcollege.com</p>
+                        <p class="text-white text-sm font-bold font-gothic md:text-2xl">Email</p>
+                        <p class="text-white text-sm font-gothic ml-24 md:text-sm">craftnursingcollege.com</p>
                     </div>
                     <div class="flex mt-16 items-center">
-                    <p class="text-white text-xs font-bold font-gothic md:text-2xl">Phone No.</p>
-                    <p class="text-white text-xs font-gothic ml-12 md:text-sm">+91 9526986000</p>
+                    <p class="text-white text-sm font-bold font-gothic md:text-2xl">Phone No.</p>
+                    <p class="text-white text-sm font-gothic ml-12 md:text-sm">+91 9526986000</p>
                     </div>
                     <div class="flex mt-16 ">
-                        <p class="text-white text-xs font-bold font-gothic md:text-2xl">Address</p>
+                        <p class="text-white text-sm font-bold font-gothic md:text-2xl">Address</p>
                         <div class="flexflex-col mb-16">
-                        <p class="text-white text-xs font-inter mb-4 ml-16 md:text-sm">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
-                        <p class="text-white text-xs font-inter mb-4 ml-16 md:text-sm">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
+                        <p class="text-white text-sm font-inter mb-4 ml-16 md:text-sm">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
+                        <p class="text-white text-sm font-inter mb-4 ml-16 md:text-sm">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
                         </div> 
                     </div>
                 </div>
@@ -150,64 +150,31 @@
 
 
     <footer><div>
-        <div>
-            <div class="relative">
-                <img src="{{url('/images/6 phnnew.png')}}" class="bg-cover w-full md:hidden"alt="image">
-                <img src="{{url('/images/6f.png')}}" class="bg-cover w-full hidden md:block"alt="image">
-                <div class="absolute inset-0 overflow-hidden  bg-gradient-to-r from-submarine/100 to-teal/10 md:bg-gradient-to-r from-cyan/80 to-teal/10">
-                    <div class="ml-6 mt-8 mb-20 md:mt-40 md:ml-16">
-                        <h class="font-inter text-white font-bold text-xl md:text-4xl">Fulfill Your Dreams Of A<br> Noble Career</h>
-                        <div class="md:mr-96 md:pr-64"><p class="font-inter text-white font-thin leading-4 text-xs md:text-sm md:mt-12 md:mr-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis,
-                             pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, .</p></div>
-                            <button class="text-center flex items-center font-arial font-bold md:text-2xl text-white mt-4 bg-teal text-xs p-2 md:mt-28 md:py-3 md:px-5 mr-52" type="button">
-                                        APPLY NOW
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-2 md:h-5 md:w-5 stroke-1 fill-base-100"viewBox="0 0 512 512">
-                                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                            <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/>
-                                        </svg>
-                            </button>
-                    </div>
-                    <div>
-                        <div class="inset-0 overflow-hidden  bg-gradient-to-b from-teal/100 to-teal/50  mt-28 pb-16 md:mt-72 md:ml-16 md:mr-16">
-                            <div class="ml-4 md:mt-16 md:ml-16">
-                                <div class="mt-2"><h class="text-white font-extrabold font-inter text-base md:text-2xl">Don’t Miss Our Updates</h></div>
-                                <p class="text-white font-extralight font-inter text-xs mt-4">Enter your email to subscribe to our mailing list.</p>
-                                <form class="mt-3 md:ml-96 md:-mt-8 md:mb-10 ">
-                                    <input name="name" class="md:w-1/2 md:h-16 md:ml-44"></input>
-                                    <button class="text-white font-inter text-base bg-primary font-semibold px-4 py-2 md:text-lg md:px-14 md:py-4 md:ml-2">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            
-        </div>
+        
         <div class="inset-0 overflow-hidden  bg-gradient-to-b from-elm/100 to-teal/70 ">
             <div class="md:flex flex-row-reverse md:mt-4 md:mb-12 mb-6">
                 <div class="mt-4 ml-10  md:w-1/2 md:flex flex-row md:pr-12">
                     <div class="md:mt-6 ">
                         <div><h class="text-white text-base mb-2 md:text-xl md:font-normal font-inter">Reach us</h></div>
-                        <p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
-                        <p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
+                        <p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">CRAFT HOSPITAL AND RESEARCH<br> CENTRE,VIII/77/ 2,3,4, Kodungallur P.O,<br> Chanthappura,Kodungallur, Thrissur,<br> KeralaPh: +91 6282396564</p>
+                        <p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">CRAFT Multispeciality Centre 5th & <br>6th Floor,Imperial Amity,Chalikkavattam,<br>NH66 Bypass Kochi 682032,<br> Kerala Ph:+91 9526986000</p>
                     </div>
                     <div class="md:flex flex-row-reverse">
                         <div class="md:ml-12">
                             <ul class="list-disc text-white mt-6 ">
                                 <div><h class="text-white text-base mb-2 md:text-xl md:font-normal font-inter">Quick Links</h></div>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Home</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Courses</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">About Us</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Contact Us</p></a></li>
-                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'})"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Gallery</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Home</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Courses</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">About Us</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Contact Us</p></a></li>
+                                    <li class="ml-6"><a @click="$dispatch('linkaction', {link: '{{route('gallery')}}', route: 'gallery'})"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Gallery</p></a></li>
                             </ul>
                         </div>
                         <div class="md:ml-6">
                             <ul class="list-disc text-white mt-6 ">
                                 <div><h class="text-white text-base mb-2 md:text-xl md:font-normal font-inter">Openings Hours</h></div>
-                                    <li class="ml-6"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Mon – Sat 09:00 AM – 06:00PM(Kochi) </p></li>
-                                    <li class="ml-6"><p class="text-white font-light leading-6 text-xs mt-2 md:font-normal font-inter">Mon – Sun Always open(Kodungalloor)</p></li>
+                                    <li class="ml-6"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Mon – Sat 09:00 AM – 06:00PM(Kochi) </p></li>
+                                    <li class="ml-6"><p class="text-white font-light leading-6 text-sm mt-2 md:font-normal font-inter">Mon – Sun Always open(Kodungalloor)</p></li>
                             </ul>
                         </div>
                     </div>    
@@ -219,7 +186,7 @@
                     </div>
 
                     <div class="ml-10 -mt-4">
-                        <p class="text-white font-light leading-6 text-xs mt-2 md:mt-4 md:text-sm font-inter">Our sister concerns</p>   
+                        <p class="text-white font-light leading-6 text-sm mt-2 md:mt-4 md:text-sm font-inter">Our sister concerns</p>   
                         <div class="border border-0 bg-gray-100 bg-opacity-40  rounded-lg h-20 w-36 md:h-auto md:mt-2"><img src="{{url('/images/Craft hospital logo-01.png')}}" class="border border-white rounded-lg  w-14 ml-10 items-center md:w-16" alt="image"></div>
                         <img src="{{url('/images/WhatsApp_Image_2023-12-04_at_1.50.00_PM-removebg-preview.png')}}" class="border rounded-lg bg-base-100 h-10 w-36 mt-4 px-1" alt="image">
                     </div>
