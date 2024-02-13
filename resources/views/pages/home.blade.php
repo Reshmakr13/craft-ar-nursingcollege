@@ -2,26 +2,26 @@
 
 <div class="items-center">
 <header>
-        <nav class="flex lg:flex-col mb-6 lg:mb-0 lg:w-full">
-            <div class="lg:flex lg:flex-row hidden lg:block lg:bg-primary lg:w-full p-4 ">
-                <div class="flex flex-row">
+        <nav class="flex lg:flex-col md:flex flex-col  mb-6 lg:mb-0 lg:w-full">
+            <div class="lg:flex lg:flex-row hidden lg:block md:block md:bg-primary lg:bg-primary lg:w-full p-4 ">
+                <div class="flex flex-row lg:ml-8 md:ml-0">
                     <div class="flex flex-row justify-start">
-                        <div class="flex ml-10 items-center">
+                        <div class="flex ml-10 items-center md:ml-0">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-4 w-4 fill-current text-white mt-1 ">
                             <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg>
                             <p class="text-white ml-2 font-light font-questrial ">0480-2800200</p>
                         </div>
                     
-                        <div class="flex ml-32">
+                        <div class="flex ml-32 md:ml-0">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-5 w-4 fill-current text-white mt-1 ml-48 items-center">
                             <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg> 
                             <p class="text-white ml-2 items-center mt-1 font-questrial font-light">nursingschool@craftivf.com</p>
                         </div>
                     </div>
-                    <div class="flex flex-row justify-end">
-                        <div class="flex space-x-8 ">
+                    <div class="flex flex-row lg:justify-end lg:ml-48">
+                        <div class="flex space-x-8 xl:ml-96 ">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="h-5 w-4 fill-current text-white mt-1 ml-28">
                             <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
@@ -36,11 +36,11 @@
                     </div>
                 </div>
             </div>
-            <div class="lg:flex lg:item-center mb-2">
-                <div class="pt-2.5 lg:py-2 pl-3.5 lg:w-1/3 ">
-                <img src="{{url('/images/Craft school of nursing logo.png')}}" class="h-14 w-12 lg:h-20 lg:w-16 lg:ml-10 " alt="logo"> 
+            <div class="lg:flex md:flex md:items-center md:mb-0 lg:items-center mb-2">
+                <div class="pt-2.5 lg:py-2 pl-3.5 lg:w-1/3 md:w-1/3 ">
+                <img src="{{url('/images/Craft school of nursing logo.png')}}" class="h-14 w-12 lg:h-20 lg:w-16 lg:ml-10  " alt="logo"> 
                 </div>
-                <div class="hidden lg:text-right lg:block lg:mr-12 lg:font-light font-questrial font-thin lg:py-8 lg:w-2/3 lg:space-x-16 lg:text-xl">
+                <div class="hidden md:block md:flex md:justify-start md:px-16 md:ml-3 md:items-center md:text-right md:mr-0 md:space-x-6 md:font-light md:w-3/4 md:text-base lg:text-right lg:justify-end  lg:block lg:mr-0 lg:font-light font-questrial font-thin lg:py-8 lg:w-3/4  lg:space-x-8 lg:text-xl">
                     <a @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');" class="text-teal font-bold underline">Home</a>
                     <a @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a>
                     <a @click="$dispatch('linkaction', {link: '{{route('courses')}}', route: 'courses'}); console.log('event dispatched');">Courses</a>
@@ -48,14 +48,14 @@
                     <a @click="$dispatch('linkaction', {link: '{{route('contact')}}', route: 'contact'}); console.log('event dispatched');">Contact Us</a>
                 </div>
             </div>
-            <div x-data="{ open : false }" class="pt-3 items-center text-right lg:hidden">
+            <div x-data="{ open : false }" class="pt-3 items-center text-right lg:hidden md:hidden xl:hidden">
                 <button @click="open = !open"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-80 mr-3 mt-3 " viewBox="0 0 448 512">
                 <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                 <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
                 </svg>
                 </a>
                 </button>
-                <div x-show="open" class="lg:hidden font-questrial">
+                <div x-show="open" class="lg:hidden md:hidden xl:hidden font-questrial">
                     <ul class="bg-white p-4">
                         <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('home')}}', route: 'home'}); console.log('event dispatched');">Home</a></li>
                         <li><a class="text-sm" @click="$dispatch('linkaction', {link: '{{route('about')}}', route: 'about'}); console.log('event dispatched');">About Us</a></li>
@@ -144,17 +144,19 @@
         </div>
     </div>
     <div class="mt-4 space-y-3 lg:flex flex-row lg:space-y-0 lg:mr-20 lg:ml-20 lg:border border-gray-400 lg:mt-16 ">
-        <div class="border border-gray-400 ml-4 lg:ml-0 lg:mr-0 mr-4 lg:border-0">
+        <div class="border border-gray-400 ml-4 lg:ml-0 lg:mr-0 mr-4 lg:border-0 lg:w-1/3">
             <div class="mt-3 lg:mt-1 lg:ml-10"><h class="outline outline-1 bg-teal text-white font-normal font-inter p-1 px-2  ml-2 lg:text-2xl lg:px-3 lg:py-2">Our Vision</h></div>
-            <p class="text-xs font-light font-inter text-left ml-2 mt-3 mb-2.5 lg:mt-10 lg:mb-14 lg:ml-10 lg:mr-24 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+            <p class="text-xs font-light font-inter text-left ml-2 mt-3 mb-2.5 lg:mt-10 lg:mb-14 lg:ml-10 lg:mr-24 lg:text-sm">Being a community of scholars and mentors guiding proffessional
+                 nurses as nurse leaders and advanced practitioners commited to professional ideals and practicing meaningfilly with a cultural competency in this increasingly technological 
+                 health care system and communities constitutes our vision</p>
         </div>
-        <div class="border border-gray-400 ml-4 mr-4 lg:ml-0lg:mr-0 lg:border-t-0 lg:border-b-0 lg:border-l  lg:border-r">
+        <div class="border border-gray-400 ml-4 mr-4 lg:ml-0lg:mr-0 lg:border-t-0 lg:border-b-0 lg:border-l  lg:border-r lg:w-1/3">
             <div class="mt-3 lg:mt-1 lg:ml-10"><h class="outline outline-1 bg-teal text-white font-normal font-inter p-1 px-2  ml-2 lg:text-2xl lg:px-3 lg:py-2">Our Mission</h></div>
-            <p class="text-xs font-light font-inter text-left ml-2 mt-3 mb-2.5 lg:mt-10 lg:mb-14 lg:ml-10 lg:mr-24 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+            <p class="text-xs font-light font-inter text-left ml-2 mt-3 mb-2.5 lg:mt-10 lg:mb-14 lg:ml-10 lg:mr-24 lg:text-sm">The mission of CRAFT School of Nursing is providing quality nursing education 
+                focusing on collaboration,critical reflection and active participation in self-education and creativity to meet the needs of clients throughout thier life-span.
+                We Emphasize on Professional nursing education synchronizing knowledge and theory,inquiry and research,leadership,nursing standards and quality proffesional practice.</p>
         </div>
-        <div class="border border-gray-400 ml-4 mr-4 lg:ml-0 lg:mr-0 lg:border-0">
+        <div class="border border-gray-400 ml-4 mr-4 lg:ml-0 lg:mr-0 lg:border-0 lg:w-1/3">
             <div class="mt-3 lg:mt-1 lg:ml-10"><h class="outline outline-1 bg-teal text-white font-normal font-inter p-1 px-2  ml-2 lg:text-2xl lg:px-3 lg:py-2">Our History</h></div>
             <p class="text-xs font-light text-left font-inter ml-2 mt-3 mb-2.5 lg:mt-10 lg:mb-14 lg:ml-10 lg:mr-24 lg:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
@@ -168,9 +170,7 @@
             <div class="lg:ml-16 lg:mr-16"><p class="font-inter text-white text-center text-xs mt-4 mr-10 ml-10 lg:text-base lg:mt-6 lg:ml-96 lg:mr-96">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                   when an Lorem Ipsum is simply dummy text of the</p></div>
-                  <div class="lg:ml-96"><svg xmlns="http://www.w3.org/2000/svg"  class="h-20 w-20  mt-3 ml-40 lg:ml-96 lg:h-48 lg:w-48 lg:mt-32 lg:stroke-width-1" viewBox="0 0 24 24" fill="white" >
-                    <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM10.6219 8.41459L15.5008 11.6672C15.6846 11.7897 15.7343 12.0381 15.6117 12.2219C15.5824 12.2658 15.5447 12.3035 15.5008 12.3328L10.6219 15.5854C10.4381 15.708 10.1897 15.6583 10.0672 15.4745C10.0234 15.4088 10 15.3316 10 15.2526V8.74741C10 8.52649 10.1791 8.34741 10.4 8.34741C10.479 8.34741 10.5562 8.37078 10.6219 8.41459Z">
-                    </path></svg></div>
+                  
                   
             </div>
         </div>
@@ -263,7 +263,7 @@
                         
                             <p class="text-lg text-black font-semibold font-inter ml-4 lg:text-lg">Feature1</p>
                         </div>
-                        <p class="text-xs text-black font-extralight font-inter ml-6 mt-6 mr-8 lg:mr-32 lg:leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                        <p class="text-xs text-black font-extralight font-inter ml-6 mt-6 mr-8 lg:mr-32 lg:leading-6 lg:text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                              luctusnec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus</p> 
                         
                     </div>
@@ -276,7 +276,7 @@
                         
                             <p class="text-lg text-black font-semibold font-inter ml-4 lg:text-lg">Feature2</p>
                         </div>
-                        <p class="text-xs text-black font-extralight font-inter ml-6 mt-6 mr-8 lg:mr-32 lg:leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                        <p class="text-xs text-black font-extralight font-inter ml-6 mt-6 mr-8 lg:mr-32 lg:leading-6 lg:text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                              luctusnec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus</p> 
                         
                     </div>
